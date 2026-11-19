@@ -1,5 +1,10 @@
 public class Assignment01Q01 {
     public static void main(String[] args) {
-        // TODO: Implement Q01
+        for (String argument : args) {
+            char firstCharacter = argument.charAt(0);
+            if (firstCharacter % 5 == 0) {
+                System.out.println(firstCharacter);
+            }
+        }
     }
 }
